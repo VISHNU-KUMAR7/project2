@@ -1,0 +1,107 @@
+/* navbar*/
+#top_nav {
+  background-color: #daac00;
+  padding: 0% 8%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 22px;
+  padding-left: 17px;
+  margin-left: 10px;
+}
+
+#searchbox {
+  background-color: #ffb308f2;
+  color: white;
+  border: 0;
+  border-radius: 0;
+  box-shadow: 8px 12px 27px 4px #464646cc;
+  position: relative;
+  left: 47px;
+}
+
+#searchbox::placeholder {
+  color: white;
+}
+
+#searchbtn {
+  position: relative;
+  z-index: 99;
+  border: 0;
+  border-radius: 0;
+  background-color: #00bec9;
+  color: white;
+}
+
+@media only screen and (max-width: 990px) {
+  #serchform {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative;
+    left: -20px;
+  }
+}
+
+/*banner*/
+
+#banner {
+  background-color: #f6f6f6;
+  padding: 20px;
+}
+
+#bannertext h1 {
+  color: #daac00;
+  margin-top: 200px;
+  font-weight: 100px;
+}
+
+#bannertext p {
+  color: #daac00;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#banner-btn-1 {
+  background-color: blueviolet;
+  border: 2px solid #00bec9;
+  color: #ffb308f2;
+}
+
+#banner-btn-2 {
+  border: 2px solid whitesmoke;
+  color: #ffb308f2;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 1300px) {
+  #bannertext h1 {
+    font-size: 50px;
+  }
+}
+
+/*Service*/
+#service-text {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+#service-btn {
+  color: whitesmoke;
+  background-color: #fcc302;
+  border: 2px;
+}
+
+#service-text h2 {
+  font-weight: 20;
+  padding: 10px 20px 10px 1px;
+}
+
+#service-text p {
+  font-weight: 20;
+  padding: 10px 20px 10px 1px;
+}
+
+/*Counter*/
+#counter-section {
+  background-image: url("../imgae/1.jpg");
+}
